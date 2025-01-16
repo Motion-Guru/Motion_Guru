@@ -15,7 +15,7 @@ const Contacts = () => {
           </h2>
         </div>
         <div className="con-cta-right">
-          <p className="con-cta-text">You Know About Me, Letâ€™s Talk</p>
+          <p className="con-cta-text">You Know About Me, Let’s Talk</p>
           <p className="con-cta-text">About You.</p>
           <div className="con-cta-buttons">
             <button className="con-cta-button">Shoot Message</button>
