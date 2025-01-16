@@ -32,11 +32,14 @@ const Projects = () => {
 };
 
 const ProjectCard = ({ video, altText }) => {
+  // Extract video ID from the URL
+  const videoId = video.split("/shorts/")[1].split("?")[0];
+
   return (
     <div className="con-project-card">
       <iframe
         className="con-project-video"
-        src={video.replace("shorts/", "embed/")} // Convert to embeddable YouTube URL
+        src={`https://www.youtube.com/embed/${videoId}?autoplay=1&controls=0&loop=1&playlist=${videoId}`}
         title={altText}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
