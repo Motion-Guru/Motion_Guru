@@ -8,7 +8,7 @@ const Projects = () => {
     "https://youtube.com/shorts/ACOg6SybnjY?feature=share",
     "https://youtube.com/shorts/vQaOuVUCJ94?feature=share",
     "https://youtube.com/shorts/JXuGQGgeR80?feature=share",
-    "https://youtube.com/shorts/-VF55IxdG4A?feature=share",
+    "https://youtu.be/d2YifFKBAzk?si=p_KdQ3Jd0NGpRbEe",
     "https://youtube.com/shorts/-VF55IxdG4A?feature=share",
     "https://youtube.com/shorts/xV50LtZnRbM?feature=share",
   ];
