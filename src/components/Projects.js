@@ -39,7 +39,7 @@ const ProjectCard = ({ video, altText }) => {
     <div className="con-project-card">
       <iframe
         className="con-project-video"
-        src={`https://www.youtube.com/embed/${videoId}?autoplay=1&controls=0&loop=1&playlist=${videoId}`}
+        src={`https://www.youtube.com/embed/${videoId}?autoplay=1&controls=0&loop=1&modestbranding=1&rel=0&showinfo=0`}
         title={altText}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
